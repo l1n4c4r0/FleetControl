@@ -1,23 +1,133 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>FleetControl</title>
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>FleetControl - Dashboard</title>
 
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
 
-    <h1>FleetControl</h1>
+<div class="container">
 
-    <script src="js/script.js"></script>
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+
+        <div class="menu-icon">☰</div>
+
+        <ul class="menu">
+
+            <li class="active">
+                <a href="index.html">Dashboard</a>
+            </li>
+
+            <li>
+                <a href="vehiculos.html">Vehículos</a>
+            </li>
+
+            <li>
+                <a href="conductores.html">Conductores</a>
+            </li>
+
+            <li>
+                <a href="rutas.html">Rutas</a>
+            </li>
+
+            <li>
+                <a href="reportes.html">Reportes</a>
+            </li>
+
+        </ul>
+
+    </aside>
+
+    <!-- MAIN -->
+    <main class="main-content">
+
+        <!-- LOGO -->
+        <header class="header">
+            <h1>FleetControl</h1>
+        </header>
+
+        <!-- SEARCH + PROFILE -->
+        <section class="top-bar">
+
+            <div class="search-bar">
+                <span>🔍</span>
+                <input type="text" placeholder="Buscar ...">
+            </div>
+
+            <div class="profile">
+                <div>👤</div>
+                <span>LM</span>
+            </div>
+
+        </section>
+
+        <!-- CARDS -->
+        <section class="cards">
+
+            <div class="card">
+                Vehículos activos
+            </div>
+
+            <div class="card">
+                Rutas en curso
+            </div>
+
+            <div class="card">
+                Conductores disponibles
+            </div>
+
+            <div class="card">
+                Alertas
+            </div>
+
+        </section>
+
+        <!-- TABLE -->
+        <section class="table-section">
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>Vehículo</th>
+                        <th>Estado</th>
+                        <th>Ruta</th>
+                        <th>Hora</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>TRK-001</td>
+                        <td>Activo</td>
+                        <td>Norte</td>
+                        <td>08:30</td>
+                    </tr>
+
+                    <tr>
+                        <td>TRK-002</td>
+                        <td>En ruta</td>
+                        <td>Sur</td>
+                        <td>09:15</td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </section>
+
+    </main>
+
+</div>
+
+<script src="js/script.js"></script>
 
 </body>
-
 </html>
