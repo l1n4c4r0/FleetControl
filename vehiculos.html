@@ -10,119 +10,178 @@
 
 <body>
 
-<div class="vehiculos-page">
+<div class="container">
 
-    <!-- HEADER -->
-    <header class="vehiculos-header">
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
 
-        <div class="menu-btn">☰</div>
+        <div class="menu-icon">☰</div>
 
-        <div class="logo-box">
-            <h1>FleetControl</h1>
-        </div>
+        <ul class="menu">
 
-    </header>
+            <li>
+                <a href="index.html">Dashboard</a>
+            </li>
 
-    <!-- TOP -->
-    <section class="vehiculos-top">
+            <li class="active">
+                <a href="vehiculos.html">Vehículos</a>
+            </li>
 
-        <div class="title-box">
-            <h2>Vehículos</h2>
-        </div>
+            <li>
+                <a href="conductores.html">Conductores</a>
+            </li>
 
-        <div class="top-right">
+            <li>
+                <a href="rutas.html">Rutas</a>
+            </li>
 
-            <!-- SEARCH -->
-            <div class="search-small">
+            <li>
+                <a href="reportes.html">Reportes</a>
+            </li>
 
-                <span>🔍</span>
+            <li>
+                <a href="video.html">Video</a> 
+            </li> 
 
-                <input type="text" placeholder="Buscar ...">
+        </ul>
+
+    </aside>
+
+    <!-- MAIN -->
+    <main class="main-content">
+
+        
+        <!-- HEADER -->
+        <header class="vehiculos-header">
+
+            <div class="logo-box">
+                <h1>FleetControl</h1>
+            </div>
+
+        </header>
+
+        <!-- TOP -->
+        <section class="vehiculos-top">
+
+            <div class="title-box">
+                <h2>Vehículos</h2>
+            </div>
+
+            <div class="top-right">
+
+                <!-- SEARCH -->
+                <div class="search-small">
+
+                    <span>🔍</span>
+
+                    <input type="text" placeholder="Buscar ...">
+
+                </div>
+
+                <!-- PROFILE -->
+                <div class="profile-circle">
+
+                    <div>👤</div>
+
+                    <span>LM</span>
+
+                </div>
 
             </div>
 
-            <!-- PROFILE -->
-            <div class="profile-circle">
+        </section>
 
-                <div>👤</div>
+        <!-- CONTENT -->
+        <section class="vehiculos-content-real">
 
-                <span>LM</span>
+            <!-- TABLE -->
+            <div class="table-container">
+
+                <table>
+
+                    <thead>
+
+                        <tr>
+                            <th>Placa</th>
+                            <th>Modelo</th>
+                            <th>Estado</th>
+                            <th>Kilometraje</th>
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
 
             </div>
 
-        </div>
+            <!-- BUTTONS -->
+            <div class="vehiculos-buttons">
 
-    </section>
+                <button>Agregar vehículo</button>
 
-    <!-- CONTENT -->
-    <section class="vehiculos-content-real">
+                <button>Editar</button>
 
-        <!-- TABLE -->
-        <div class="table-container">
+                <button>Eliminar</button>
 
-            <table>
+            </div>
 
-                <thead>
+        </section>
 
-                    <tr>
-                        <th>Placa</th>
-                        <th>Modelo</th>
-                        <th>Estado</th>
-                        <th>Kilometraje</th>
-                    </tr>
-
-                </thead>
-
-                <tbody>
-
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-
-                </tbody>
-
-            </table>
-
-        </div>
-
-        <!-- BUTTONS -->
-        <div class="vehiculos-buttons">
-
-            <button>Agregar vehículo</button>
-
-            <button>Editar</button>
-
-            <button>Eliminar</button>
-
-        </div>
-
-    </section>
+    </main>
 
 </div>
+        <!-- FOOTER -->
+        <footer class="footer">
+
+            <p>
+                Developed by Lina Caro © 2026
+            </p>
+
+            <div class="footer-links">
+
+                <a href="https://github.com/l1n4c4r0" target="_blank">
+                    GitHub
+                </a>
+
+                <a href="https://www.linkedin.com/in/lina-m-caro/" target="_blank">
+                    LinkedIn
+                </a>
+
+            </div>
+
+        </footer>
 
 </body>
 </html>
